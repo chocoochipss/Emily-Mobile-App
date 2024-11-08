@@ -7,6 +7,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import AddTransaction from './src/pages/AddTransaction';
 import FlashMessage from 'react-native-flash-message';
+import './src/config/Firebase';
 
 const Stack = createNativeStackNavigator();
 
